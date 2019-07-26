@@ -6,6 +6,12 @@ body {
     color: #50596;
 }
 
+/* -- Colors --  */
+.navbar {
+    background-color: rgba(0,0,0,0.6)!important;
+}
+
+
 /* -- Navbar --  */
 
 .navbar {
@@ -13,11 +19,11 @@ body {
     font-weight: 700;
     font-size: .8rem;
     letter-spacing:.1rem;
-    background: rgba(0,0,0,.7)!important;
 }
 
 .navbar-brand img {
-    height: 2.5rem;
+    height: 2rem;
+    background: transparent;
 }
 
 .navbar-nav li {
@@ -25,11 +31,6 @@ body {
 }
 
 navbar-dark .navbar-nav .navbar-link {
-    color: #fff;
     padding-top: .8rem;
 }
-
-navbar-dark .navbar-nav .navbar-link.active,
-navbar-dark .navbar-nav .navbar-link:hover {
-    color: #676767;
-}
+      
