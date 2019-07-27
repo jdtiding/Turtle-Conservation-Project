@@ -6,13 +6,19 @@ body {
     color: #50596;
 }
 
-/* -- Colors --  */
+/* -------------------------- Colors ----------------------  */
+
 .navbar {
     background-color: rgba(0,0,0,0.6)!important;
 }
 
+.carousel-inner h1,
+.carousel-inner h2 {
+    color: #fff;
+}
 
-/* -- Navbar --  */
+
+/* -------------------------- Navbar ----------------------  */
 
 .navbar {
     text-transform: uppercase;
@@ -34,3 +40,46 @@ navbar-dark .navbar-nav .navbar-link {
     padding-top: .8rem;
 }
       
+/* -------------------------- Slider ----------------------  */
+
+.carousel-item {
+    height: 100vh;
+}
+.carousel-item .container {
+    position: absolute;
+    top: 10%;
+    height: 100vh;
+    text-transform: uppercase;
+    margin:0;
+}
+
+.row {
+    height:40vh;
+}
+
+.carousel-inner h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+
+}
+
+.carousel-inner h2 {
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    padding-bottom: 2rem;
+}
+
+
+.carousel-inner .btn-lg {
+    border-width: medium;
+    border-radius: 0;
+    font-size: 1.1rem;
+}
+
+.carousel-caption {
+    position: absolute;
+    top:72%;
+    text-transform: uppercase;
+    margin:0;
+}
