@@ -12,11 +12,6 @@ body {
     background-color: rgba(0,0,0,0.6)!important;
 }
 
-.carousel-inner h1,
-.carousel-inner h2 {
-    color: #fff;
-}
-
 
 /* -------------------------- Navbar ----------------------  */
 
@@ -61,15 +56,15 @@ navbar-dark .navbar-nav .navbar-link {
     font-size: 2.5rem;
     font-weight: 700;
     letter-spacing: 0.1rem;
-
+    color: #fff;
 }
 
 .carousel-inner h2 {
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
     padding-bottom: 2rem;
+    color: #fff;
 }
-
 
 .carousel-inner .btn-lg {
     border-width: medium;
@@ -82,4 +77,10 @@ navbar-dark .navbar-nav .navbar-link {
     top:72%;
     text-transform: uppercase;
     margin:0;
+}
+
+/* -------------------------- Volunteer Section ----------------------  */
+
+.container-fluid {
+    width:100%;
 }
