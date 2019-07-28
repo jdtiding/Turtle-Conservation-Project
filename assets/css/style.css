@@ -82,20 +82,21 @@ navbar-dark .navbar-nav .navbar-link {
 
 /* -------------------------- Gallery -------------------------------  */
 
-
 /*  Original code credit: https://codepen.io/sdthornton/pen/wBZdXq   */
+
 .gallery-thumbnail {
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     -webkit-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
     -o-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
     transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
-/*  ------------------------- Added by me -------------------------  */
+    /*  ------------------------- Added by me -------------------------  */
     width: 100%;
     border-radius: 5px;
 }
 
 /*  Original code credit: https://codepen.io/sdthornton/pen/wBZdXq   */
+
 .gallery-thumbnail:hover {
     -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -107,3 +108,10 @@ navbar-dark .navbar-nav .navbar-link {
 
 
 /* -------------------------- Contact Section ----------------------  */
+
+#contact {
+    /*background-attachment: fixed;*/
+    background-size: cover;
+    background-image: url(../images/contactus.jpg);
+
+}
