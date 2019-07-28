@@ -48,10 +48,6 @@ navbar-dark .navbar-nav .navbar-link {
     margin:0;
 }
 
-.row {
-    height:40vh;
-}
-
 .carousel-inner h1 {
     font-size: 2.5rem;
     font-weight: 700;
@@ -81,6 +77,3 @@ navbar-dark .navbar-nav .navbar-link {
 
 /* -------------------------- Volunteer Section ----------------------  */
 
-.container-fluid {
-    width:100%;
-}
