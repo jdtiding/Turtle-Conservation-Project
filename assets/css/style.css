@@ -3,15 +3,19 @@
 body {
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
-    color: #50596;
 }
 
-/* -------------------------- Colors ----------------------  */
+/* -------------------------- Colors general --------------  */
 
 .navbar {
     background-color: rgba(0, 0, 0, 0.6)!important;
 }
 
+/* -------------------------- Text general --------------  */
+
+p {
+    text-align: justify;
+}
 
 /* -------------------------- Navbar ----------------------  */
 
@@ -77,6 +81,8 @@ navbar-dark .navbar-nav .navbar-link {
 }
 
 /* -------------------------- Volunteer Section -----------------------  */
+
+
 
 /* -------------------------- About Us Section -----------------------  */
 
