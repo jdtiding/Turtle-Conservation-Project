@@ -12,11 +12,7 @@ body {
 }
 
 h1, h2, h3, h4,h5 {
-    color:#117f93;
-}
-
-.btn-light {
-    color:#117f93;
+    color:#fff;
 }
 
 /* -------------------------- Text general --------------  */
@@ -108,6 +104,18 @@ navbar-dark .navbar-nav .navbar-link {
 
 /* -------------------------- Gallery -------------------------------  */
 
+.gallery .container-fluid {
+    background-image: url(../images/gallerybackground.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom left;
+}
+
+.gallery .container-fluid .row {
+    margin-right:0;
+    margin-left: 0;
+}
+
 /*  Original code credit: https://codepen.io/sdthornton/pen/wBZdXq   */
 
 .gallery-thumbnail {
@@ -136,10 +144,9 @@ navbar-dark .navbar-nav .navbar-link {
 }
 
 #contact {
-    background-image: url(../images/contactus.jpg);
-    background-attachment: scroll;
+    background-image: url(../images/gallerybackground.jpg);
+    background-attachment: fixed;
     background-size: cover;
-    background-repeat: no-repeat;
     background-position: bottom left;
     padding: 2.5rem 0 3rem 0;
     margin-bottom: 2rem;
@@ -150,7 +157,7 @@ navbar-dark .navbar-nav .navbar-link {
     margin-bottom: 1rem;
 }
 
-.jumbotron .btn-light {
+.jumbotron .btn-outline-light {
     border-width: medium;
     font-size: 1.1rem;
     text-transform: uppercase;
@@ -178,9 +185,5 @@ navbar-dark .navbar-nav .navbar-link {
 @media (min-width: 768px) {
     .jumbotron .container-fluid {
         width: 80%;
-        margin-right: 2rem;
-}
-#contact {
-    background-attachment: fixed;
 }
 }
