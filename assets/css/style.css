@@ -11,10 +11,30 @@ body {
     background-color: rgba(0, 0, 0, 0.6)!important;
 }
 
+h1, h2, h3, h4,h5 {
+    color:#117f93;
+}
+
+.btn-light {
+    color:#117f93;
+}
+
 /* -------------------------- Text general --------------  */
 
 p {
     text-align: justify;
+}
+
+h1, h2, h3, h4,h5 {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+h1, h2 {
+    font-weight: 900;
+}
+h3, h4 {
+    font-weight: 700;
 }
 
 /* -------------------------- Navbar ----------------------  */
@@ -109,15 +129,58 @@ navbar-dark .navbar-nav .navbar-link {
 }
 
 
-
-
-
-
 /* -------------------------- Contact Section ----------------------  */
 
-#contact {
-    /*background-attachment: fixed;*/
-    background-size: cover;
-    background-image: url(../images/contactus.jpg);
+.jumbotron {
+    border-radius: 0;
+}
 
+#contact {
+    background-image: url(../images/contactus.jpg);
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    padding: 2.5rem 0 3rem 0;
+    margin-bottom: 2rem;
+}
+
+.contact {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.jumbotron .btn-light {
+    border-width: medium;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+
+
+
+
+/* -------------------------- Media Queries ----------------------  */
+
+
+/* ---------------------- Media Queries Contact ------------------  */
+@media (max-width: 767px){
+    #contact {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .contact-double {
+    margin-bottom: 1rem;
+}
+}
+
+@media (min-width: 768px) {
+    .jumbotron .container-fluid {
+        width: 80%;
+        margin-right: 2rem;
+}
+#contact {
+    background-attachment: fixed;
+}
 }
