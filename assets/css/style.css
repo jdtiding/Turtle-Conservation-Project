@@ -3,41 +3,56 @@
 body {
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
-
 }
 
-/* -------------------------- Colors general --------------  */
+/* -------------------------- General Colors --------------  */
 
-.navbar {
+.navbar,
+footer {
     background-color: rgba(0, 0, 0, 0.6)!important;
 }
 
-h1,h2,h3,h4,h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     color: #117f93;
 }
 
 #contact h2,
-#gallery-section h2 {
-    color:#f5f5f5;
+#gallery-section h2,
+#footer h6 {
+    color: #fafafa;
 }
 
-/* -------------------------- Text general --------------  */
+/* -------------------------- General paddings/margins/text--------------  */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-weight: 900;
+}
+
+h3,
+h4 {
+    font-weight: 700;
+}
 
 p {
     text-align: justify;
 }
 
-h1, h2, h3, h4,h5 {
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
-}
-
-h1, h2 {
-    font-weight: 900;
-}
-h3, h4 {
-    font-weight: 700;
-}
 
 /* -------------------------- Navbar ----------------------  */
 
@@ -103,8 +118,9 @@ navbar-dark .navbar-nav .navbar-link {
 }
 
 /* -------------------------- Volunteer Section -----------------------  */
+
 .volunteer .container-fluid {
-   /* background-image: url(../images/homepage2.jpg);
+    /* background-image: url(../images/homepage2.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: top left;*/
@@ -116,8 +132,9 @@ navbar-dark .navbar-nav .navbar-link {
 
 
 /* -------------------------- About Us Section -----------------------  */
+
 .aboutus .container-fluid {
-   /* background-image: url(../images/homepage3.JPG);
+    /* background-image: url(../images/homepage3.JPG);
     background-attachment: fixed;
     background-size: cover;
     background-position: top left;*/
@@ -141,7 +158,7 @@ navbar-dark .navbar-nav .navbar-link {
 }
 
 .gallery .container-fluid .row {
-    margin-right:0;
+    margin-right: 0;
     margin-left: 0;
 }
 
@@ -170,15 +187,16 @@ navbar-dark .navbar-nav .navbar-link {
 
 .jumbotron {
     border-radius: 0;
+    margin-bottom: 0;
 }
+
 
 #contact {
     background-image: url(../images/gallerybackground.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: bottom left;
-    padding: 2.5rem 0 3rem 0;
-    margin-bottom: 2rem;
+    padding: 2.5rem 0 0rem 0;
 }
 
 .contact {
@@ -193,6 +211,18 @@ navbar-dark .navbar-nav .navbar-link {
     letter-spacing: .1rem;
 }
 
+/* -------------------------- Footer Section ----------------------  */
+#footer .container-fluid {
+    margin: 0;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+    padding-right: 2rem;
+}
+#footer h6 {
+    font-size: 0.8rem;
+    margin: 0;
+    padding:0;
+}
 
 
 
@@ -203,31 +233,30 @@ navbar-dark .navbar-nav .navbar-link {
 
 @media (min-width: 992px) {
     .gallery .row {
-    padding: 1rem 0rem 1rem 0rem;
-}
-}
-@media (max-width: 992px){
-    #gallery-section h2 {
-        margin-bottom: 2rem;
+        padding: 1rem 0rem 1rem 0rem;
     }
 }
+
+@media (max-width: 992px) {
+    #gallery-section h2 {
+    margin-bottom: 2rem;
+    }
+}
+
 /* ---------------------- Media Queries Contact ------------------  */
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
     #contact {
         padding-left: 1.5rem;
         padding-right: 1.5rem;
     }
     .contact-double {
-    margin-bottom: 1rem;
-}
+        margin-bottom: 1rem;
+    }
 }
 
 @media (min-width: 768px) {
-    .jumbotron .container-fluid {
-        width: 80%;
+.jumbotron .form-responsive {
+        width: 70%;
+    }
 }
-}
-
-
-
