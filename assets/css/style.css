@@ -7,9 +7,13 @@ body {
 
 /* -------------------------- General Colors --------------  */
 
-.navbar,
-footer {
+.navbar {
     background-color: rgba(0, 0, 0, 0.6)!important;
+}
+
+footer {
+    background-color: #000;
+    color: #fafafa;
 }
 
 h1,
@@ -36,7 +40,6 @@ h5,
 h6 {
     text-transform: uppercase;
     letter-spacing: 0.1rem;
-    margin: 0;
 }
 
 h1,
@@ -196,7 +199,7 @@ navbar-dark .navbar-nav .navbar-link {
     background-attachment: fixed;
     background-size: cover;
     background-position: bottom left;
-    padding: 2.5rem 0 0rem 0;
+    padding: 2.5rem 0 1.5rem 0;
 }
 
 .contact {
@@ -212,20 +215,51 @@ navbar-dark .navbar-nav .navbar-link {
 }
 
 /* -------------------------- Footer Section ----------------------  */
+
 #footer .container-fluid {
     margin: 0;
-    padding-top: 2.5rem;
-    padding-bottom: 2rem;
-    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: .5rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
 }
+
 #footer h6 {
     font-size: 0.8rem;
-    margin: 0;
-    padding:0;
 }
 
+.icons-links {
+    padding: 1rem 0;
+    margin: 0;
+}
 
+.icons-links li a i {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    line-height: 0.5rem;
+    text-align: center;
+    color: #fafafa;
+    background-color: #333333;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+}
 
+.icons-links li a i:hover {
+    background-color: #117f93;
+}
+
+.footer-copyright {
+    border-top: 0.05rem solid #fafafa;
+    width: 100%;
+    color: #fafafa;
+    font-size: .8rem;
+    letter-spacing: 0.1rem;
+}
 
 /* -------------------------- Media Queries ----------------------  */
 
@@ -233,13 +267,13 @@ navbar-dark .navbar-nav .navbar-link {
 
 @media (min-width: 992px) {
     .gallery .row {
-        padding: 1rem 0rem 1rem 0rem;
+        padding: 1rem 0rem;
     }
 }
 
 @media (max-width: 992px) {
     #gallery-section h2 {
-    margin-bottom: 2rem;
+        margin-bottom: 2rem;
     }
 }
 
@@ -256,7 +290,15 @@ navbar-dark .navbar-nav .navbar-link {
 }
 
 @media (min-width: 768px) {
-.jumbotron .form-responsive {
+    .jumbotron .form-responsive {
         width: 70%;
+    }
+}
+
+/* ---------------------- Media Queries Footer ------------------  */
+
+@media (max-width: 767px) {
+    #footer .container-fluid {
+        text-align: center;
     }
 }
