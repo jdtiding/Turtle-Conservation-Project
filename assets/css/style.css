@@ -214,11 +214,24 @@ navbar-dark .navbar-nav .navbar-link {
     letter-spacing: .1rem;
 }
 
+.btn-outline-light:hover {
+    color: #fafafa;
+    background-color: #117f93;
+    border-color: #117f93;
+}
+
+.btn-outline-light:not(:disabled):not(.disabled).active,
+.btn-outline-light:not(:disabled):not(.disabled):active,
+.show>.btn-outline-light.dropdown-toggle {
+    color: #fafafa;
+    background-color: #117f93;
+    border-color: #117f93;
+}
+
 /* -------------------------- Footer Section ----------------------  */
 
 #footer .container-fluid {
     margin: 0;
-    padding-top: 2rem;
     padding-bottom: .5rem;
     padding-right: 1.5rem;
     padding-left: 1.5rem;
@@ -226,6 +239,7 @@ navbar-dark .navbar-nav .navbar-link {
 
 #footer h6 {
     font-size: 0.8rem;
+    padding-top: 1.5rem;
 }
 
 .icons-links {
@@ -301,6 +315,11 @@ navbar-dark .navbar-nav .navbar-link {
 @media (min-width: 768px) {
     .jumbotron .form-responsive {
         width: 70%;
+    }
+    .icons-links {
+        padding: 1rem 0;
+        margin: 0;
+        text-align: right;
     }
 }
 
