@@ -261,6 +261,15 @@ navbar-dark .navbar-nav .navbar-link {
     letter-spacing: 0.1rem;
 }
 
+.footer-copyright a {
+    color: #fafafa;
+}
+
+.footer-copyright a:hover {
+    color: #117f93;
+    text-decoration: none;
+}
+
 /* -------------------------- Media Queries ----------------------  */
 
 /* ---------------------- Media Queries Gallery ------------------  */
