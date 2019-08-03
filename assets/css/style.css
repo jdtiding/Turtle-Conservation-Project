@@ -59,6 +59,11 @@ footer {
 
 /* -------------------------- General paddings/margins/icons/text--------------  */
 
+.volunteer .container-fluid,
+.aboutus .container-fluid {
+    padding: 2.5rem;
+}
+
 h1,
 h2,
 h3,
@@ -96,7 +101,7 @@ h2.heading {
     width: 2.5rem;
     height: .1rem;
     background-color: #505962;
-    margin: 0 auto 1.8rem;
+    margin: 0 auto .5rem;
 }
 
 .icons {
@@ -105,7 +110,8 @@ h2.heading {
 }
 
 h3.heading-small {
-    padding-bottom: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
     text-align: center;
     margin: 0;
 }
@@ -113,6 +119,7 @@ h3.heading-small {
 h4.heading-smaller {
     padding-bottom: 1.2rem;
     padding-top: 1rem;
+    padding-bottom: 1rem;
     margin: 0;
     text-align: center
 }
@@ -191,22 +198,7 @@ navbar-dark .navbar-nav .navbar-link {
 
 /* -------------------------- Volunteer Section -----------------------  */
 
-.volunteer .container-fluid {
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-}
-
 /* -------------------------- About Us Section -----------------------  */
-
-.aboutus .container-fluid {
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-}
-
 
 /* -------------------------- Gallery -------------------------------  */
 
