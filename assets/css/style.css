@@ -3,6 +3,7 @@
 body {
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
+    color: #505962;
 }
 
 /* -------------------------- General Colors --------------  */
@@ -30,7 +31,7 @@ h5 {
     color: #fafafa;
 }
 
-/* -------------------------- General paddings/margins/text--------------  */
+/* -------------------------- General paddings/margins/icons/text--------------  */
 
 h1,
 h2,
@@ -47,6 +48,10 @@ h2 {
     font-weight: 900;
 }
 
+h2 {
+    font-size: 1.9rem;
+}
+
 h3,
 h4 {
     font-weight: 700;
@@ -54,6 +59,28 @@ h4 {
 
 p {
     text-align: justify;
+}
+
+h2.heading {
+    padding-bottom: .8rem;
+}
+
+.heading-underline {
+    width: 2.5rem;
+    height: .1rem;
+    background-color: #505962;
+    margin: 0 auto 1.8rem;
+}
+
+.icons {
+    font-size: 1.5rem;
+    color: #505962;
+    padding-bottom: 0.5rem;
+}
+
+h3.heading-small {
+    padding-bottom: 1.5rem;
+    text-align: center;
 }
 
 
@@ -123,24 +150,15 @@ navbar-dark .navbar-nav .navbar-link {
 /* -------------------------- Volunteer Section -----------------------  */
 
 .volunteer .container-fluid {
-    /* background-image: url(../images/homepage2.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: top left;*/
     padding-right: 1.5rem;
     padding-left: 1.5rem;
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
 }
 
-
 /* -------------------------- About Us Section -----------------------  */
 
 .aboutus .container-fluid {
-    /* background-image: url(../images/homepage3.JPG);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: top left;*/
     padding-right: 1.5rem;
     padding-left: 1.5rem;
     padding-top: 2.5rem;
