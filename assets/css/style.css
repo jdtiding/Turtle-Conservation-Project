@@ -95,6 +95,7 @@ p {
 h2.heading {
     padding-bottom: .8rem;
     margin: 0;
+    text-align: center;
 }
 
 .heading-underline {
