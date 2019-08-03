@@ -25,11 +25,16 @@ h5 {
     color: #117f93;
 }
 
+.icons {
+    color: #505962;
+}
+
 #contact h2,
 #gallery-section h2,
 #footer h6 {
     color: #fafafa;
 }
+
 
 /* -------------------------- General paddings/margins/icons/text--------------  */
 
@@ -63,6 +68,7 @@ p {
 
 h2.heading {
     padding-bottom: .8rem;
+    margin: 0;
 }
 
 .heading-underline {
@@ -74,13 +80,20 @@ h2.heading {
 
 .icons {
     font-size: 1.5rem;
-    color: #505962;
     padding-bottom: 0.5rem;
 }
 
 h3.heading-small {
     padding-bottom: 1.5rem;
     text-align: center;
+    margin: 0;
+}
+
+h4.heading-smaller {
+    padding-bottom: 1.2rem;
+    padding-top: 1rem;
+    margin: 0;
+    text-align: center
 }
 
 
