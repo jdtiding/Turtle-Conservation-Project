@@ -35,6 +35,19 @@ h5 {
     color: #fafafa;
 }
 
+.btn-outline-light:hover {
+    color: #fafafa;
+    background-color: #117f93;
+    border-color: #117f93;
+}
+
+.btn-outline-light:not(:disabled):not(.disabled).active,
+.btn-outline-light:not(:disabled):not(.disabled):active,
+.show>.btn-outline-light.dropdown-toggle {
+    color: #fafafa;
+    background-color: #117f93;
+    border-color: #117f93;
+}
 
 /* -------------------------- General paddings/margins/icons/text--------------  */
 
@@ -103,6 +116,13 @@ h5.heading-tiny {
     text-align: center
 }
 
+.btn-outline-light {
+    border-width: medium;
+    border-radius: 0;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
 
 /* -------------------------- Navbar ----------------------  */
 
@@ -152,12 +172,6 @@ navbar-dark .navbar-nav .navbar-link {
     letter-spacing: 0.1rem;
     padding-bottom: 2rem;
     color: #fff;
-}
-
-.carousel-inner .btn-lg {
-    border-width: medium;
-    border-radius: 0;
-    font-size: 1.1rem;
 }
 
 .carousel-caption {
@@ -245,26 +259,6 @@ navbar-dark .navbar-nav .navbar-link {
     margin-bottom: 1rem;
 }
 
-.jumbotron .btn-outline-light {
-    border-width: medium;
-    font-size: 1.1rem;
-    text-transform: uppercase;
-    letter-spacing: .1rem;
-}
-
-.btn-outline-light:hover {
-    color: #fafafa;
-    background-color: #117f93;
-    border-color: #117f93;
-}
-
-.btn-outline-light:not(:disabled):not(.disabled).active,
-.btn-outline-light:not(:disabled):not(.disabled):active,
-.show>.btn-outline-light.dropdown-toggle {
-    color: #fafafa;
-    background-color: #117f93;
-    border-color: #117f93;
-}
 
 /* -------------------------- Footer Section ----------------------  */
 
