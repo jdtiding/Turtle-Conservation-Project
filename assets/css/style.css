@@ -12,11 +12,6 @@ body {
     background-color: rgba(0, 0, 0, 0.6)!important;
 }
 
-footer {
-    background-color: #000;
-    color: #fafafa;
-}
-
 h1,
 h2,
 h3,
@@ -35,6 +30,14 @@ h5 {
     color: #fafafa;
 }
 
+.volunteer .container-fluid {
+    background-color: #fcfcfc;
+}
+
+.aboutus .container-fluid {
+    background-color: #fafafa;
+}
+
 .btn-outline-light:hover {
     color: #fafafa;
     background-color: #117f93;
@@ -47,6 +50,11 @@ h5 {
     color: #fafafa;
     background-color: #117f93;
     border-color: #117f93;
+}
+
+footer {
+    background-color: #000;
+    color: #fafafa;
 }
 
 /* -------------------------- General paddings/margins/icons/text--------------  */
