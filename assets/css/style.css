@@ -203,7 +203,7 @@ navbar-dark .navbar-nav .navbar-link {
 
 /* -------------------------- Gallery -------------------------------  */
 
-.gallery .container-fluid {
+#gallery .container-fluid {
     background-image: url(../images/gallerybackground.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -213,7 +213,7 @@ navbar-dark .navbar-nav .navbar-link {
     padding-top: 2.5rem;
 }
 
-.gallery .container-fluid .row {
+#gallery .container-fluid .row {
     margin-right: 0;
     margin-left: 0;
 }
