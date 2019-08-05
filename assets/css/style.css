@@ -12,6 +12,19 @@ body {
     background-color: rgba(0, 0, 0, 0.6)!important;
 }
 
+.volunteer .container-fluid {
+    background-color: #fcfcfc;
+}
+
+.aboutus .container-fluid {
+    background-color: #fafafa;
+}
+
+footer {
+    background-color: #000;
+    color: #fafafa;
+}
+
 h1,
 h2,
 h3,
@@ -20,22 +33,19 @@ h5 {
     color: #117f93;
 }
 
-.icons {
-    color: #505962;
-}
-
 #contact h2,
 #gallery-section h2,
 #footer h6 {
     color: #fafafa;
 }
 
-.volunteer .container-fluid {
-    background-color: #fcfcfc;
+#price p i,
+.icons {
+    color: #505962;
 }
 
-.aboutus .container-fluid {
-    background-color: #fafafa;
+#price p i:hover {
+    color: #117f93;
 }
 
 .btn-outline-light:hover {
@@ -50,11 +60,6 @@ h5 {
     color: #fafafa;
     background-color: #117f93;
     border-color: #117f93;
-}
-
-footer {
-    background-color: #000;
-    color: #fafafa;
 }
 
 /* -------------------------- General paddings/margins/icons/text--------------  */
@@ -139,6 +144,7 @@ h5.heading-tiny {
     text-transform: uppercase;
     letter-spacing: .1rem;
 }
+
 
 /* -------------------------- Navbar ----------------------  */
 
