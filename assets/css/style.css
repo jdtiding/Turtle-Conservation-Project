@@ -168,6 +168,12 @@ navbar-dark .navbar-nav .navbar-link {
     padding-top: .8rem;
 }
 
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #117f93;
+}
+
+
+
 /* -------------------------- Navbar Pills ----------------------  */
 
 .nav-pills a{
@@ -176,7 +182,7 @@ navbar-dark .navbar-nav .navbar-link {
 
 .nav-pills a:hover{
     color: #117f93;
-    background-color: rgba(0,0,0,.3);
+    background-color: rgba(0,0,0,.2);
     border-radius: .1rem;
 }
 
