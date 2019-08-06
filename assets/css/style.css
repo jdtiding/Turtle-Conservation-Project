@@ -6,6 +6,21 @@ body {
     color: #505962;
 }
 
+.offset:before {
+    height: 3.1rem;
+    margin-top: -3.3rem;
+    content: " ";
+    display: block;
+}
+
+.offset-contact:before {
+    height: 3.1rem;
+    margin-top: -2rem;
+    content: " ";
+    display: block;
+}
+
+
 /* -------------------------- General Colors --------------  */
 
 .navbar {
@@ -154,6 +169,8 @@ h5.heading-tiny {
     font-size: .8rem;
     letter-spacing: .1rem;
     text-align: right;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
 }
 
 .navbar-brand img {
@@ -165,8 +182,8 @@ h5.heading-tiny {
     padding-right: .7rem;
 }
 
-navbar-dark .navbar-nav .navbar-link {
-    padding-top: .8rem;
+.navbar-dark .navbar-nav .nav-link {
+    color: #fafafa;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -191,7 +208,7 @@ navbar-dark .navbar-nav .navbar-link {
     background-color: rgba(0, 0, 0, .6);
     font-size: 0.8rem;
     border-radius: 0.1rem;
-    margin: 0.7rem 0;
+    margin: 0.45rem 0;
 }
 
 .dropdown-item {
@@ -217,26 +234,18 @@ navbar-dark .navbar-nav .navbar-link {
     height: 100vh;
 }
 
-.carousel-item .container {
-    position: absolute;
-    top: 10%;
-    height: 100vh;
-    text-transform: uppercase;
-    margin: 0;
-}
-
 .carousel-inner h1 {
     font-size: 2.5rem;
     font-weight: 700;
     letter-spacing: 0.1rem;
-    color: #fff;
+    color: #fafafa;
 }
 
-.carousel-inner h2 {
+.carousel-inner h3 {
     font-size: 1.8rem;
     letter-spacing: 0.1rem;
-    padding-bottom: 2rem;
-    color: #fff;
+   /* padding-bottom: 2rem;*/
+    color: #fafafa;
 }
 
 .carousel-caption {
@@ -248,11 +257,16 @@ navbar-dark .navbar-nav .navbar-link {
 
 /* -------------------------- Volunteer Section -----------------------  */
 
+.volunteer ul {
+    padding-left: 1rem;
+}
+
+
 /* -------------------------- About Us Section -----------------------  */
 
 /* -------------------------- Gallery -------------------------------  */
 
-#gallery .container-fluid {
+#gallery-section .container-fluid {
     background-image: url(../images/gallerybackground.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -262,9 +276,13 @@ navbar-dark .navbar-nav .navbar-link {
     padding-top: 2.5rem;
 }
 
-#gallery .container-fluid .row {
+#gallery-section .container-fluid .row {
     margin-right: 0;
     margin-left: 0;
+}
+
+#gallery-section h2 {
+    margin-bottom: 1.5rem;
 }
 
 /*  Original code credit: https://codepen.io/sdthornton/pen/wBZdXq   */
@@ -389,11 +407,6 @@ navbar-dark .navbar-nav .navbar-link {
     }
 }
 
-@media (max-width: 992px) {
-    #gallery-section h2 {
-        margin-bottom: 2rem;
-    }
-}
 
 /* ---------------------- Media Queries Contact ------------------  */
 
