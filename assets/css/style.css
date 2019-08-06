@@ -153,6 +153,7 @@ h5.heading-tiny {
     font-weight: 700;
     font-size: .8rem;
     letter-spacing: .1rem;
+    text-align: right;
 }
 
 .navbar-brand img {
@@ -176,18 +177,18 @@ navbar-dark .navbar-nav .navbar-link {
 
 /* -------------------------- Navbar Pills ----------------------  */
 
-.nav-pills a{
+.nav-pills a {
     color: #fafafa;
 }
 
-.nav-pills a:hover{
+.nav-pills a:hover {
     color: #117f93;
-    background-color: rgba(0,0,0,.2);
+    background-color: transparent;
     border-radius: .1rem;
 }
 
 .dropdown-menu {
-    background-color: rgba(0,0,0,.6);
+    background-color: rgba(0, 0, 0, .6);
     font-size: 0.8rem;
     border-radius: 0.1rem;
     margin: 0.7rem 0;
@@ -197,12 +198,18 @@ navbar-dark .navbar-nav .navbar-link {
     font-weight: 700;
 }
 
-
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+.dropdown-item.active,
+.dropdown-item:active {
     color: #fafafa;
-    background-color: rgba(0,0,0,.3);
+    background-color: transparent;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fafafa;
+    background-color: transparent;
     border-radius: 0.1rem;
-    }
+}
 
 /* -------------------------- Slider ----------------------  */
 
@@ -359,7 +366,20 @@ navbar-dark .navbar-nav .navbar-link {
     text-decoration: none;
 }
 
-/* -------------------------- Media Queries ----------------------  */
+/* -------------------------- Media Queries Navbar ----------------------  */
+
+@media (max-width: 767px) {
+    .dropdown-menu {
+        background-color: transparent;
+        text-align: right;
+        border-radius: 0;
+        border: none;
+        margin: auto;
+    }
+    .dropdown-item {
+        padding-right: 0;
+    }
+}
 
 /* ---------------------- Media Queries Gallery ------------------  */
 
