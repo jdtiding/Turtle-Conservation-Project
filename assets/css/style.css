@@ -77,6 +77,7 @@ h5 {
     border-color: #117f93;
 }
 
+
 /* -------------------------- General paddings/margins/icons/text--------------  */
 
 .volunteer .container-fluid,
@@ -232,28 +233,66 @@ h5.heading-tiny {
 
 .carousel-item {
     height: 100vh;
+    width: 100vw;
 }
 
-.carousel-inner h1 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    letter-spacing: 0.1rem;
-    color: #fafafa;
+.image-home-1,
+.image-home-2,
+.image-home-3 {
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: top;
 }
 
-.carousel-inner h3 {
-    font-size: 1.8rem;
-    letter-spacing: 0.1rem;
-   /* padding-bottom: 2rem;*/
-    color: #fafafa;
+.image-home-1 {
+    background-image: url(../images/homepage1.jpg);
+}
+
+.image-home-2 {
+    background-image: url(../images/homepage2.jpg);
+}
+
+.image-home-3 {
+    background-image: url(../images/homepage3.jpg);
 }
 
 .carousel-caption {
-    position: absolute;
-    top: 72%;
     text-transform: uppercase;
-    margin: 0;
+    min-width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 32%;
+    z-index: 1;
+    right: 0;
+    left: 0;
 }
+
+.image-home-2 .carousel-caption,
+.image-home-3 .carousel-caption {
+    top: 56%;
+}
+
+.carousel-inner h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    color: #fafafa;
+    padding-bottom: 1.2rem;
+}
+
+.carousel-inner h3 {
+    font-size: 1.75rem;
+    font-weight: 400;
+    color: #fafafa;
+    padding-bottom: 2.5rem;
+}
+
 
 /* -------------------------- Volunteer Section -----------------------  */
 
@@ -399,6 +438,59 @@ h5.heading-tiny {
     }
 }
 
+/* -------------------------- Media Queries Image slider ----------------------  */
+
+@media (max-width: 991px) {
+    .carousel-inner h1 {
+        font-size: 3rem;
+        letter-spacing: 0.2rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .carousel-inner h3 {
+        font-size: 1.5rem;
+        padding-bottom: 1.7rem;
+        letter-spacing: .2rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .carousel-inner h1 {
+        font-size: 1.5rem;
+        padding-bottom: .3rem;
+        letter-spacing: .1rem;
+    }
+
+    .carousel-inner h3 {
+        font-size: 1rem;
+        padding-bottom: .9rem;
+        letter-spacing: .1rem;
+    }
+    .image-home-1 .btn-outline-light,
+    .image-home-2 .btn-outline-light,
+    .image-home-3 .btn-outline-light {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .carousel-inner h1 {
+        font-size: 1.2rem;
+        padding-bottom: .4rem;
+    }
+
+    .carousel-inner h3 {
+        font-size: .9rem;
+        padding-bottom: 1rem;
+    }
+
+    .image-home-1 .btn-outline-light,
+    .image-home-2 .btn-outline-light,
+    .image-home-3 .btn-outline-light{
+        font-size: .8rem;
+    }
+}
+
 /* ---------------------- Media Queries Gallery ------------------  */
 
 @media (min-width: 992px) {
@@ -438,3 +530,24 @@ h5.heading-tiny {
         text-align: center;
     }
 }
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
