@@ -191,8 +191,8 @@ using the built in function within AWSCloud9.
 The text for the Volunteer page was created by me.  
 The text for About Us page was translated by me from the original [VerdiAzul](http://verdiazulcr.org/) website.
 ***
-All the photos used in this site are from my priate collection.  
-The Gallery and Contact page bacground-image was taken from [Pexel](https://www.pexels.com/).
+All the photos used in this site are from my private collection.  
+The Gallery and the Contact page bacground-image was taken from [Pexel](https://www.pexels.com/).
 ***
 CSS code for shadows and hover responsiveness of gallery images was originally taken from [Material Design Box Shadows](https://codepen.io/sdthornton/pen/wBZdXq).
 ***
