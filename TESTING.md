@@ -101,6 +101,7 @@ The following items were checked accross all the platforms and devices:
 1. Click on every image and verify that it opens enlarged;
 2. Verify responsiveness: one column wide for very small devices, two columns wide for small devices,  
   three columns wide for medium devices and six columns wide for large ones; 
+3. Background image verify that stays fixed during scrolling;
 ***
 
 #### [Contact page](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#contact)
@@ -110,6 +111,7 @@ The following items were checked accross all the platforms and devices:
 3. Verify that the form display behaves and centres the way expected:
     - 70% width for medium and larger devices, centered;
     - 100% width for small devices;
+3. Background image verify that stays fixed during scrolling;
 ***
 
 #### [Footer](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#contact)
