@@ -9,6 +9,7 @@ Current website:  <http://verdiazulcr.org/>  is only in spanish, contains old in
 
 By creating new, modern, responsive website I would like to encourage new potential volunteers from all over the world to come to VerdiAzul 
 to provide support to this amazing project.
+***
 
 ## UX
 
@@ -83,6 +84,7 @@ Every slide contains navigation arrows on the sides and indicators at the bottom
 ### [Volunteer section](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#volunteer)
 
 Dropdown menu linking to:
+
 - [Overview](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#overview)
     
 In this section user will find short information about location of the project and also a little bit about the turtles that nest in the area.
