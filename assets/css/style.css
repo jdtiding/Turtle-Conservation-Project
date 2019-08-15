@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900');
 
+
 body {
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
@@ -455,6 +456,13 @@ h5.heading-tiny {
         font-size: 1.5rem;
         padding-bottom: 1.7rem;
         letter-spacing: .2rem;
+    }
+
+/* fixed scrolling issue image slider for mozilla mobile and tablets - see Testing.md */
+    .image-home-1,
+    .image-home-2,
+    .image-home-3 {
+        background-attachment: scroll;
     }
 }
 
