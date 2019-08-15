@@ -38,7 +38,7 @@ HP 14-cf0925nd, Windows 10:
 - Internet Explorer 11 Version 11.615.17763.0;
 - Microsoft Edge 44.17763.1.0;
 - Firefox Quantum 68.0.2 (64-bit);
-- Opera version is 62.0.3331.116;
+- Opera version 62.0.3331.116;
 ***
 
 **Tablet:**  
@@ -60,8 +60,9 @@ Sony Xperia Z5, Android 7.1.1:
 - Google Chrome;
 ***
 
-**iPhone:**  
-*I've asked my friends to check the website on their mobile devices and report any issues they find.*
+**iPhone anc Mac:**  
+**- Safari;**  
+*I've asked my friends to check the website on their devices and report any issues they find.*
 ***
 
 ### Functionality check
@@ -125,3 +126,50 @@ The following items were checked accross all the platforms and devices:
 6. Verify that the footer is responsive and looks good on all device widths.
 ***
 
+### Results
+
+#### Issues found:
+
+##### Desktop devices:
+
+1. Internet Explorer:
+  - Image slider Home page and background images for Gallery and Contact pages don't scroll smoothly. Images are "jumping" during scrolling.  
+    Internet Explorer is not widely used these days, and in Microsoft Edge the webpage displays correctly, issue will not be investigated further.
+
+2. Chrome and Opera:
+  - Image slider 2nd and 3rd photo do not display correctly.  
+    On the right side of the page white strip appears through the whole height of the page.  
+    Images are going back to 100% width after scrolling the page a little bit down.  
+    **TO BE INVESTIGATED**
+***
+
+##### Tablets:
+
+1. Chrome:
+  - Fixed images not supported;
+
+2. Opera:
+  - Fixed images not supported;
+
+3. Mozilla:
+  - Fixed images supported, but scrolling through image slider was not smooth.    
+    For better UX background images were set to scroll both for medium and small devices.  
+    That signifcantly improved scrolling through the home page.
+***
+
+##### Mobile devices:
+
+1. Chrome:
+  - Fixed images not supported;
+
+2. Opera:
+  - Fixed images not supported;
+  - Text and button on landscape view image slider home page overflow on image slider indicators.  
+    **TO BE INVESTIGATED**
+
+3. Mozilla:
+  - Fixed images supported, but scrolling through image slider was not smooth.    
+    For better UX background images were set to scroll both for medium and small devices.  
+    That signifcantly improved scrolling through the home page.
+  - Navigation bar: while clicking links dashed border of the color of the hovered text appears.  
+    **TO BE INVESTIGATED**
