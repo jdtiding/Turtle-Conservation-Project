@@ -60,9 +60,10 @@ Sony Xperia Z5, Android 7.1.1:
 - Google Chrome;
 ***
 
-**iPhone anc Mac:**  
-**- Safari;**  
-*I've asked my friends to check the website on their devices and report any issues they find.*
+**Apple devices:**  
+**- Safari:**  
+*I've asked my friends to check the website on their mobile devices and report any issues they find.*  
+*Additionally I've run online tests on [Cross Browser Testing Cloud Lambda](https://www.lambdatest.com/) for desktop, tablet and mobile Apple devices.*
 ***
 
 ### Functionality check
@@ -151,7 +152,7 @@ The following items were checked accross all the platforms and devices:
 2. Opera:
   - Fixed images not supported;
 
-3. Mozilla:
+3. Firefox:
   - Fixed images supported, but scrolling through image slider was not smooth.    
     For better UX background images were set to scroll both for medium and small devices.  
     That signifcantly improved scrolling through the home page.
@@ -167,7 +168,7 @@ The following items were checked accross all the platforms and devices:
   - Text and button on landscape view image slider home page overflow on image slider indicators.  
     **TO BE INVESTIGATED**
 
-3. Mozilla:
+3. Firefox:
   - Fixed images supported, but scrolling through image slider was not smooth.    
     For better UX background images were set to scroll both for medium and small devices.  
     That signifcantly improved scrolling through the home page.
