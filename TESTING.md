@@ -140,7 +140,7 @@ The following items were checked accross all the platforms and devices:
   - Image slider 2nd and 3rd photo do not display correctly.  
     On the right side of the page white strip appears through the whole height of the page.  
     Images are going back to 100% width after scrolling the page a little bit down.  
-    **TO BE INVESTIGATED**
+    **Solved by changing image width from 100vw to 100%**
 ***
 
 ##### Tablets:
