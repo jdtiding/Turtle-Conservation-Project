@@ -92,10 +92,21 @@ The following items were checked accross all the platforms and devices:
 4. Check every slide that text is correctly centered and doesn't overflow outside the image;
 ***
 
+#### [Volunteer page and its sub-pages](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#volunteer)
+
+1. Verify responsiveness that it changes correctly on all devices.
+***
+
+#### [About Us page](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#aboutus)
+
+1. Verify that displays correctly on all devices.
+***
+
 #### [Price page](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#price)
 
 1. Click on envelope icon and verify that it links to Contact form;
 2. Hover over the envelope icon and verify the hover color change works as expected;
+3. Verify responsiveness that it changes correctly on all devices.
 ***
 
 #### [Gallery page](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#gallery-section)
