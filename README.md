@@ -49,7 +49,7 @@ This site uses the Bootstrap's scrollspy feature.
 A responsive, fixed navigation bar with:
 - [logo and name of the organization](https://jdtiding.github.io/Turtle-Conservation-Project/index.html) on the left side (clicking the [logo or text](https://jdtiding.github.io/Turtle-Conservation-Project/index.html)
 returns users to the home page);
-- links to sections on the right side:
+- links to pages on the right side:
     - [Home](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#home)
     - [Volunteer](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#volunteer) dropdown menu:
         - [Overview](https://jdtiding.github.io/Turtle-Conservation-Project/#overview)
@@ -81,11 +81,11 @@ First slide contains main header, every slide contains a short sentence and a bu
 
 Every slide contains navigation arrows on the sides and indicators at the bottom of the slide.
 ***
-### [Volunteer section](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#volunteer)
+### [Volunteer Page](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#volunteer)
 
 Dropdown menu linking to:
 
-- [Overview](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#overview)
+- [Overview sub-page](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#overview)
     
 In this section user will find short information about location of the project and also a little bit about the turtles that nest in the area.
 
@@ -96,20 +96,20 @@ Every column contains centered header and paragraph.
 On small devices user will see only 1 column.
 ***
 
-- [For Who](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#forwho)
+- [For Who sub-page](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#forwho)
 
 This section contains information about the pontential volunteer profile and requirements.
 
 Responsiveness see Overview section.
 ***
 
-- [Activites](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#activities)
+- [Activites sub-page](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#activities)
 
 In this section user will find general description and list of daily activites.
 
 Responsiveness see Overview section.
 ***
-- [Price](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#price)
+- [Price sub-page](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#price)
 
 The Price section contains: 
 - one full-width column: general information linking via envelope icon to contact form for more information;
@@ -118,7 +118,7 @@ The Price section contains:
 Responsiveness see Overview section.
 ***
 
-### [About Us](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#aboutus)
+### [About Us Page](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#aboutus)
 
 At the top or the page centered main header is placed.
 
@@ -127,7 +127,7 @@ Page consists of two full-widht columns placed one above each other and are visi
 I've chosen this way because in the future I would like to add more information to the subsection "Who are We?" and make both columns responsive like in subsections above.
 ***
 
-### [Gallery](https://jdtiding.github.io/Turtle-Conservation-Project/#gallery-section)
+### [Gallery Page](https://jdtiding.github.io/Turtle-Conservation-Project/#gallery-section)
 
 The Gallery page is laid out in columns of thumbnail images, two columns wide for small devices, three columns wide for medium and six columns wide for large ones.  
 
@@ -140,7 +140,7 @@ Each image can be clicked to open a fancybox window to view enlarged picture, to
 ##### Scrolling up or down through those pages,especially on large devices, gives a nice impression and can encourage a potential volunteer to fill in the form and ask for more information.
 ***
 
-### [Contact](https://jdtiding.github.io/Turtle-Conservation-Project/#contact)
+### [Contact Page](https://jdtiding.github.io/Turtle-Conservation-Project/#contact)
 
 The Contact page features a contact form, which requests first name, last name, email address and provides a box to leave a message.
 

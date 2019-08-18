@@ -7,7 +7,7 @@
 
 ## Validation check
 
-### [W3C Markup Validation](https://jigsaw.w3.org/css-validator/#validate_by_input)
+### [W3C Markup Validation](https://validator.w3.org/#validate_by_input)
 
 W3C Markup Validation Service was used to check the validity of the html code.
 
@@ -18,7 +18,7 @@ Fixed issues:
     - css code was updated accordingly;
 ***
 
-### [W3C CSS Validation](https://validator.w3.org/#validate_by_input)
+### [W3C CSS Validation](https://jigsaw.w3.org/css-validator/validator.html.en#validate_by_input)
 
 W3C CSS Validation Service was used to check the validity of the CSS code.
 
@@ -92,24 +92,23 @@ The following items were checked accross all the platforms and devices:
 4. Check every slide that text is correctly centered and doesn't overflow outside the image;
 ***
 
-#### [Volunteer page and its sub-pages](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#volunteer)
+#### [Volunteer Page and its sub-pages](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#volunteer)
 
 1. Verify responsiveness that it changes correctly on all devices.
 ***
 
-#### [About Us page](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#aboutus)
+#### [Price sub-page: additional check](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#price)
+
+1. Click on envelope icon and verify that it links to Contact form;
+2. Hover over the envelope icon and verify the hover color change works as expected;
+***
+
+#### [About Us Page](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#aboutus)
 
 1. Verify that displays correctly on all devices.
 ***
 
-#### [Price page](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#price)
-
-1. Click on envelope icon and verify that it links to Contact form;
-2. Hover over the envelope icon and verify the hover color change works as expected;
-3. Verify responsiveness that it changes correctly on all devices.
-***
-
-#### [Gallery page](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#gallery-section)
+#### [Gallery Page](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#gallery-section)
 
 1. Click on every image and verify that it opens enlarged;
 2. Verify responsiveness: one column wide for very small devices, two columns wide for small devices,  
@@ -117,7 +116,7 @@ The following items were checked accross all the platforms and devices:
 3. Background image verify that stays fixed during scrolling;
 ***
 
-#### [Contact page](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#contact)
+#### [Contact Page](https://jdtiding.github.io/Turtle-Conservation-Project/index.html#contact)
 
 1. Try to submit the empty form and verify that an error message about the required fields appears;
 2. Try to submit the form with all inputs valid and verify that the page reloads.
@@ -183,5 +182,8 @@ The following items were checked accross all the platforms and devices:
   - Fixed images supported, but scrolling through image slider was not smooth.    
     For better UX background images were set to scroll both for medium and small devices.  
     That signifcantly improved scrolling through the home page.
+  - Text and button on landscape view image slider home page overflow on image slider indicators.  
+    **TO BE INVESTIGATED**
   - Navigation bar: while clicking links dashed border of the color of the hovered text appears.  
     **TO BE INVESTIGATED**
+***
